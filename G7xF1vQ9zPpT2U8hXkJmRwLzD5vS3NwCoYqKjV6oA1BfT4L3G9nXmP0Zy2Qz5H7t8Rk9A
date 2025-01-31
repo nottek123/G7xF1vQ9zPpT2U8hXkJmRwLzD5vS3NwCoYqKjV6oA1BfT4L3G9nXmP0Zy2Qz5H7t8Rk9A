@@ -223,7 +223,19 @@ end
                   Utilities:Create("UIListLayout", {
                       FillDirection = Enum.FillDirection.Horizontal
                   })
-              })
+              }),
+            Utilities:Create("TextLabel", {
+                Name = "Title",
+                Text = "Window Title",  -- Change this to your desired title
+                Size = UDim2.new(1, 0, 1, 0),
+                BackgroundTransparency = 1,
+                Position = UDim2.new(0, 0, 0, 0),
+                TextSize = 16,
+                Font = Enum.Font.SourceSansBold,
+                TextColor3 = Colors.PrimaryText,
+                TextXAlignment = Enum.TextXAlignment.Center,
+                ZIndex = 3
+            }),
           })
       })
   })
