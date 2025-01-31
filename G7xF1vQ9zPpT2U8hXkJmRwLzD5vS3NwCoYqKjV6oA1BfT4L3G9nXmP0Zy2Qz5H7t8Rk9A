@@ -186,7 +186,7 @@ local Window = Utilities:Create("ScreenGui", {
                 RichText = true,
                 TextXAlignment = Enum.TextXAlignment.Left,
                 TextSize = 13,
-                Font = Enum.Font.SourceSansBold,
+                Font = Enum.Font.SourceSans,
                 TextColor3 = Colors.PrimaryText,
                 ZIndex = DropIndex + 5
             }, {
@@ -210,12 +210,12 @@ local Window = Utilities:Create("ScreenGui", {
             -- Title Label added here
             Utilities:Create("TextLabel", {
                 Name = "Title",
-                Text = "Window Title",  -- Change this to your desired title
+                Text = "division",  -- Change this to your desired title
                 Size = UDim2.new(1, 0, 0.5, 0),  -- Adjusted to take up half of the Topbar height
                 BackgroundTransparency = 1,
                 Position = UDim2.new(0, 0, 0, 0),
                 TextSize = 16,
-                Font = Enum.Font.SourceSansBold,
+                Font = Enum.Font.SourceSans,
                 TextColor3 = Colors.PrimaryText,
                 TextXAlignment = Enum.TextXAlignment.Center,
                 ZIndex = 3
@@ -284,7 +284,7 @@ local Window = Utilities:Create("ScreenGui", {
             RichText = true,
             TextXAlignment = Enum.TextXAlignment.Left,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.SourceSans,
             TextColor3 = Colors.PrimaryText,
             ZIndex = 11001
         })
@@ -346,7 +346,7 @@ local Window = Utilities:Create("ScreenGui", {
             RichText = true,
             TextXAlignment = Enum.TextXAlignment.Left,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.SourceSans,
             TextColor3 = consoleArgs.Color,
             ZIndex = 11002
         })
@@ -484,7 +484,7 @@ local Window = Utilities:Create("ScreenGui", {
           Size = UDim2.new(1, 0, 1, 0),
           Text = TabArgs.Text,
           RichText = true,
-          Font = Enum.Font.SourceSansBold,
+          Font = Enum.Font.SourceSans,
           TextColor3 = Colors.SecondaryText,
           TextSize = 14,
           ZIndex = 2
@@ -613,7 +613,7 @@ local Window = Utilities:Create("ScreenGui", {
           BackgroundTransparency = 1,
           TextColor3 = Colors.PrimaryText,
           RichText = true,
-          Font = Enum.Font.SourceSansBold,
+          Font = Enum.Font.SourceSans,
           ZIndex = 2
       }),
       Utilities:Create("Frame", {
@@ -682,7 +682,7 @@ local Window = Utilities:Create("ScreenGui", {
             Text = CheckArgs.Text,
             TextSize = 13,
             RichText = true,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.SourceSans,
             Size = UDim2.new(0, 14, 0, 14),
             TextXAlignment = Enum.TextXAlignment.Left,
             Position = UDim2.new(0, 20, 0, 0),
@@ -771,7 +771,7 @@ local Window = Utilities:Create("ScreenGui", {
             Size = UDim2.new(1, 0, 1, 0),
             Text = Info.Text,
             RichText = true,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.SourceSans,
             BackgroundTransparency = 1,
             TextSize = 13,
             TextColor3 = Colors.PrimaryText
@@ -877,7 +877,7 @@ local Window = Utilities:Create("ScreenGui", {
             Name = "SliderValueText",
             Text = StepFormat:format(Rounded)..Info.Postfix,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.SourceSans,
             RichText = true,
             Size = UDim2.new(1, 0, 0, 14),
             TextColor3 = Color3.fromRGB(255, 255, 255),
@@ -892,7 +892,7 @@ local Window = Utilities:Create("ScreenGui", {
             Name = "SliderText",
             Text = Info.Text,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold,
+            Font = Enum.Font.SourceSans,
             RichText = true,
             Size = UDim2.new(1, 0, 0, 14),
             TextXAlignment = Enum.TextXAlignment.Left,
@@ -978,7 +978,7 @@ local Window = Utilities:Create("ScreenGui", {
             Size = UDim2.new(0, 286, 0, 14),
             TextXAlignment = Enum.TextXAlignment.Left,
             TextSize = 13,
-            Font = Enum.Font.SourceSansBold
+            Font = Enum.Font.SourceSans
         })
     })
 
@@ -1033,7 +1033,7 @@ local Window = Utilities:Create("ScreenGui", {
                 Position = UDim2.new(0, 4, 0, 0),
                 TextSize = 13,
                 TextColor3 = Colors.TertiaryText,
-                Font = Enum.Font.SourceSansBold,
+                Font = Enum.Font.SourceSans,
                 ZIndex = DropdownTable.Index
             }),
             Utilities:Create("TextButton", {
@@ -1223,7 +1223,7 @@ local Window = Utilities:Create("ScreenGui", {
                 BackgroundTransparency = 1,
                 RichText = true,
                 TextColor3 = Colors.PrimaryText,
-                Font = Enum.Font.SourceSansBold,
+                Font = Enum.Font.SourceSans,
                 ZIndex = DropdownTable.Index
             }),
             Utilities:Create("TextButton", {
